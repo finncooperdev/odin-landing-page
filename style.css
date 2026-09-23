@@ -7,6 +7,9 @@ body {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 10px;
+    padding: 10px 25px;
+    border-color: #3882F6;
 }
 
 .header {
@@ -31,6 +34,10 @@ button {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.links {
+    margin: 10px;
 }
 
 .hero {
@@ -65,6 +72,13 @@ button {
     align-items: center;
 }
 
+.square-image {
+    height: 200px;
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
 .quote {
     background-color: #E5E7EB;
     font-size: 36px;
@@ -94,6 +108,12 @@ button {
     align-items: center;
     justify-content: space-around;
     padding: 10px 100px;
+    border-radius: 10px;
+}
+
+.calltoaction button {
+    border-color: #E5E7EB;
+    border-style: solid;
 }
 
 .footer {
